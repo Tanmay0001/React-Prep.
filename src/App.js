@@ -1332,7 +1332,7 @@ import React from "react";
 import './App.css';
 import User from './User';
 function App() {
-    let data="Seeta Ram"
+    let data="Seeta Raam"
     return (
         <div className="App">
             <h1>Lifting State Up</h1>
