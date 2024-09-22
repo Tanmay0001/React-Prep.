@@ -45,16 +45,56 @@
 
 
 
-// Send Data Child to Parent Component
-function User()
-{
-    return(
-        <div>
-            <h2>User Component</h2>
-            <button>Click Me</button>
-        </div>
-    )
-}
+// // Send Data Child to Parent Component
+// function User(props)
+// {
+//     return(
+//         <div>
+//             <h2>User Name: {props.name}</h2>
+//             <button>Click Me</button>
+//         </div>
+//     )
+// }
 
-export default User;
+// export default User;
 
+
+
+
+
+
+
+// //  Pure component in Recat
+
+// import './App.css';
+// import React, { PureComponent } from 'react';
+// class User extends React.Component {
+// render()
+//  {
+//         console.log("user component check-re-rendering");
+//         return (
+//             <div className='App'>
+//                 <h1>User Component {this.props.count} </h1>
+                
+//             </div>
+//         );
+//     }
+// }
+
+// export default User;
+
+
+
+// //  Forward Ref
+
+// import React, {forwardRef} from 'react'
+// function User(props, ref)
+// {
+//     return(
+//         <div>
+//             <input type="text" ref={ref} />
+//         </div>
+//     )
+// }
+
+// export default forwardRef(User);
